@@ -17,7 +17,7 @@ VYNE, hedef sistemler üzerinde subdomain ve endpoint keşfi yapabilen, wildcard
 ## Kurulum
 
 ```bash
-git clone https://github.com/shadowhunterxd/VYNE.git
+git clone https://github.com/Sh4d0wHunt3r-XD/VYNE-v1.0.git
 cd VYNE
 pip3 install -r requirements.txt
 Python 3.6 ve üzeri önerilir.
