@@ -256,8 +256,7 @@ def endpoint_scan(endpoint):
 	try:
 		new_url_req = requests.get(new_url,timeout=timeout_value,headers=headers)
 	except requests.RequestException as e:
-		print(red + f"[!] İstek hatası : {e} -> {new_url}")
-		return
+		pass
 	status = new_url_req.status_code
 	url = new_url
 	if new_url_req.status_code in user_status_codes:
